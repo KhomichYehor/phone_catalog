@@ -1,3 +1,18 @@
-.starter {
-  font-size: 18px;
+@use './shared//global/GlobalStyles/utils/mixins' as *;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.AppWidth {
+  flex-grow: 1;
+
+  @include on-desktop {
+    width: 1200px;
+    margin-inline: auto;
+  }
 }
