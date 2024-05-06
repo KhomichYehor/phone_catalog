@@ -1,9 +1,3 @@
-# React TypeScript Starter Pack
+[DEMO](https://khomichyehor.github.io/phone_catalog/)
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+I am the Front-End developer who created this app. My goal was to show you my skills in practice, to create an application that is a store selling Apple equipment. During development, he used: BEM methodology, React, Redux, SCSS, Classnames library, module SCSS, TypeScript.
