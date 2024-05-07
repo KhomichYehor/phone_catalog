@@ -21,7 +21,31 @@ Checkout System
 Responsive Design
 Accessibility Optimized
 
+How to Run the Project Locally
+
 Prerequisites
+
 Before you can run this project locally, you need to have the following installed:
 Node.js (preferably the latest LTS version)
 npm (usually comes with Node.js)
+
+Cloning the Repository
+First, clone the repository using Git. Open your terminal, and run the following command:
+
+git clone https://github.com/KhomichYehor/phone_catalog.git
+
+Navigating to the Project Directory
+After cloning the repository, navigate to the project directory:
+
+cd phone_catalog
+
+Installing Dependencies
+The project depends on various npm packages. Install them using the following command:
+
+npm install
+
+Running the Project
+Once the dependencies are installed, you can run the project locally using:
+
+npm start
+
