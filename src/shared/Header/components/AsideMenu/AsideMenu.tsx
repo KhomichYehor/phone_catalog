@@ -33,6 +33,14 @@ export const AsideMenu: React.FC<Props> = ({ isMenuOpen, setIsMenuOpen }) => {
     }
   }, [cartItem]);
 
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  }, [isMenuOpen]);
+
   return (
     <aside className={classNames(styles.menu, { [styles.shown]: isMenuOpen })}>
       <div className={stylesHeader.header}>
