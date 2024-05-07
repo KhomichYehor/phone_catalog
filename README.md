@@ -1,6 +1,7 @@
 [DEMO](https://khomichyehor.github.io/phone_catalog/)
 
-Project Title: Apple Equipment Store
+Project Title - Apple Equipment Store
+
 Introduction
 This project is a web application designed for an online store that specializes in selling Apple equipment. The application allows users to browse products, add items to their cart, and proceed to checkout. It was built using modern front-end technologies and follows best practices in web development.
 
@@ -12,15 +13,15 @@ BEM (Block Element Modifier): A methodology that helps you to create reusable co
 Classnames Library: A simple utility for conditionally joining classNames together, used in conjunction with SCSS modules for more dynamic styling.
 TypeScript: A superset of JavaScript that adds static types to the language, helping to catch errors early during the development phase.
 Module SCSS: CSS modules implemented via SCSS for component-scoped styles to avoid style conflicts and improve maintainability.
+
 Features
 Product Listing
 Shopping Cart
 Checkout System
 Responsive Design
 Accessibility Optimized
-Local Development
+
 Prerequisites
 Before you can run this project locally, you need to have the following installed:
-
 Node.js (preferably the latest LTS version)
 npm (usually comes with Node.js)
